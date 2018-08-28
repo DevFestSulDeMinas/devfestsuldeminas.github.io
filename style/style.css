@@ -1,0 +1,51 @@
+body{
+    background-color: #010A3B;
+    font-family: "Product Sans", arial, sans-serif;
+    color: white;
+}
+
+.logo{
+    width: 290px;
+    margin: auto;
+    /* margin-top: calc(25% - 130px); */
+    /* position: relative; */
+    top: calc(50% - 45px);
+    display: grid;
+    position: absolute;
+    grid-template-columns: 70px;
+    left: calc(50% - 145px);
+}
+
+.logo-gdg{
+    grid-row-start: 1;
+    grid-row-end: 3;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    height: 90px;
+}
+
+.gdg-devfest{
+    grid-row-start:1;
+    grid-row-end: 2;
+    font-size:36px;
+}
+
+.sul-de-minas{
+    grid-row-start: 2;
+    grid-row-end: 3;
+    font-size:25px;
+}
+
+.texto-logo{
+
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+.data-devfest{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    margin-top: 10px;
+    text-align: center;
+    font-size: 20px;
+}
